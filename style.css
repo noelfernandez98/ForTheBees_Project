@@ -1,0 +1,63 @@
+body{
+    background-color: darkgrey;
+}
+
+.color-pal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color:darkgrey;
+    border-collapse: collapse;
+}
+
+
+.hue1{
+    width: 175px;
+    height: 175px;
+    background-color: #A7BEAE;
+    border:1px solid black;
+}
+
+.hue2{
+    width: 175px;
+    height: 175px;
+    background-color: #E7E8D1;
+    border:1px solid black;
+}
+
+.hue3{
+    width: 175px;
+    height: 175px;
+    background-color: #FBF8BE;
+    border:1px solid black;
+}
+
+.hue4{
+    width: 175px;
+    height: 175px;
+    background-color: #FFE77AFF;
+    border:1px solid black;
+}
+
+.hue5{
+    width: 175px;
+    height: 175px;
+    background-color: #EED971FF;
+    border:1px solid black;
+}
+
+.hue6{
+    width: 175px;
+    height: 175px;
+    background-color: #E3B448;
+    border:1px solid black;
+}
+
+.hue7{
+    width: 175px;
+    height: 175px;
+    background-color: #495371;
+    border:1px solid black;
+}
