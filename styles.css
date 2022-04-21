@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+ul li{
+    text-decoration: none;
+    color: #52504a
+}
+
+a{
+    text-decoration: none;
+    color: #52504a
+}
+a:hover{
+    text-decoration: underline;
+    color: #495371;
+}
+
+body{
+    background: #a7beae;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+   margin-top: 0px;
+   color: #52504a;
+   padding: 0;
+   background-color: #fbf8be;
+}
+
+.navcontainer .headlogo{
+    position: absolute;
+    width: 180px;
+}
+.headlogo{
+    width: 30%;
+    padding: 0px;
+    position: relative;
+}
+
+.title{
+    font-family: 'Markazi Text', serif;
+    font-size: 80px;
+    margin-top: 89px;
+}
+
+.shop{
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 99px;
+    color: #52504a;
+}
+
+.aboutus{
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 99px;
+}
+
+.donate{
+    font-family: 'Markazi Text', serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 99px;
+}
+
+.nav img{
+    display: block;
+}
+
+.content{
+    min-height: 100%;
+    margin: 0;
+    background: #a7bfae;
+    justify-content: center;
+    position: relative;
+}
+
+.bees{
+    font-size: 0;
+    overflow: hidden;
+}
+
+.mission{
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    padding: 0;
+    font-size: 500%;
+}
+
+.homefooter{
+    justify-content: space-between;
+    font-family: 'Markazi Text', serif;
+    font-size: 200%;
+    margin-top: 200px;
+}
