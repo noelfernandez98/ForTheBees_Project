@@ -3,15 +3,53 @@
     margin: 0;
     text-decoration: none;
 }
+nav{
+    background-color: #FBF8BE;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /*height: 5%;*/
+}
+
+h1{
+    font-family: 'Markazi Text', serif;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    /*height: 50%;*/
+    align-items:center;
+}
+
+.headlogo{
+    height: 100px;
+    width: 100px;
+}
+.nav-header{
+/*    display: flex;*/
+/*    flex-direction: row;*/
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 40px;
+}
 
 ul li{
     text-decoration: none;
-    color: #52504a
+    color: black;
 }
 
 a{
     text-decoration: none;
-    color: #52504a
+    color: black;
 }
 a:hover{
     text-decoration: underline;
@@ -22,55 +60,6 @@ body{
     background: #a7beae;
     width: 100%;
     height: 100vh;
-}
-
-nav{
-   margin-top: 0px;
-   color: #52504a;
-   padding: 0;
-   background-color: #fbf8be;
-}
-
-.navcontainer .headlogo{
-    position: absolute;
-    width: 180px;
-}
-.headlogo{
-    width: 30%;
-    padding: 0px;
-    position: relative;
-}
-
-.title{
-    font-family: 'Markazi Text', serif;
-    font-size: 80px;
-    margin-top: 89px;
-}
-
-.shop{
-    font-family: 'Markazi Text', serif;
-    font-size: 40px;
-    font-weight: normal;
-    margin-top: 99px;
-    color: #52504a;
-}
-
-.aboutus{
-    font-family: 'Markazi Text', serif;
-    font-size: 40px;
-    font-weight: normal;
-    margin-top: 99px;
-}
-
-.donate{
-    font-family: 'Markazi Text', serif;
-    font-size: 40px;
-    font-weight: normal;
-    margin-top: 99px;
-}
-
-.nav img{
-    display: block;
 }
 
 .content{
@@ -84,11 +73,12 @@ nav{
 .bees{
     font-size: 0;
     overflow: hidden;
+    width: 160%;
 }
 
 .mission{
     top: 40%;
-    left: 35%;
+    left: 50%;
     position: absolute;
     padding: 0;
     font-size: 500%;
@@ -99,4 +89,62 @@ nav{
     font-family: 'Markazi Text', serif;
     font-size: 200%;
     margin-top: 200px;
+}
+
+.beebg2{
+    width: 33%;
+    height: auto;
+}
+
+@media screen and (max-width: 3440px) {
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .mission{
+    top: 40%;
+    left: 38%;
+    position: absolute;
+    padding: 0;
+    font-size: 3vw;
+}
+
+    .homefooter{
+    justify-content: space-between;
+    font-family: 'Markazi Text', serif;
+    font-size: 200%;
+    margin-top: 200px;
+}
+}
+
+@media screen and (max-width: 390px) {
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mission{
+    top: 22%;
+    left: 22%;
+    position: absolute;
+    padding: 0;
+    font-size: 3vh;
+    }
+    .beebg1{
+        width: 0vw;
+        height: auto;
+    }
+    
+    .beebg2{ 
+        width: 125vh;
+        height: auto;
+    }
 }
