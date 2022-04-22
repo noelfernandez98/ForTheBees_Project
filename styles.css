@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a7bfae;
+}
+
+nav{
+    background-color: #FBF8BE;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /*height: 5%;*/
+}
+
+/*h1{*/
+/*    font-family: 'Markazi Text', serif;*/
+/*}*/
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    /*height: 50%;*/
+    align-items:center;
+}
+
+.headlogo{
+    height: 100px;
+    width: 100px;
+}
+.nav-header{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 40px;
+}
+
+ul li{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #495371;
+}
+
+.page-name-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+ .apparel-name{
+    font-size: 40px;
+    padding-top: 25px;
+ }
+
+.honeybucket{
+    height: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.product-container{
+    display: flex;
+}
