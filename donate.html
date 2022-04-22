@@ -6,22 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="stylesheet" href="grid.css" type="text/css" />
     <title>donate</title>
 </head>
 <body>
-    <main>
+    <main class= "donatecontainer">
         <nav>
-            <div class="nav-logo">
-               <div class="beelogo">
-                  <img class= "headlogo"src="images/logobee.png"></img>
+            <div class="nav-heart">
+               <div class="heartlogo">
+                  <img class= "heart"src="images/heart.png"></img>
                </div>
-               <div class="nav-header"></div>
-               <h1 class= "title" href= "home.html">For The Bee's</h1>
+               <div class="heart-header"></div>
+               <h1 class= "hearttitle" href= "home.html">donate</h1>
             </div>
-            <ul>
+            <ul calss= "hyp2">
                <li class= "shop"><a href= "shop.html">Shop</a></li>
                <li class= "donate"><a href="donate.html">Donate</a></li>
                <li class= "aboutus"><a href="about.html">About Us</a></li>
@@ -29,7 +29,18 @@
          </nav>
          <content>
              <header>
-                 <img src="images/trail.png"></img>
+                 <div class= "change">
+                     <h1>make a real change</h1>
+                     <img src="images/trail.png"></img>
+                     <form action="https://www.paypal.com/donate" method="post" target="_top">
+                     <input type="hidden" name="business" value="228P5UN66MCM8" />
+                     <input type="hidden" name="no_recurring" value="0" />
+                     <input type="hidden" name="item_name" value="All donations will go to thebeeconservancy.org" />
+                     <input type="hidden" name="currency_code" value="USD" />
+                     <input type="image" src="images/donatebutton.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                     <img class= "donatebutton"alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                     </form>
+                 </div>
              </header>
          </content>
     </main>
