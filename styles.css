@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    cursor: url("images/cursor.png"), auto;
 }
 nav{
     background-color: #FBF8BE;
@@ -27,8 +28,8 @@ h1{
 }
 
 .headlogo{
-    height: 100px;
-    width: 100px;
+    height: auto;
+    width: 4vw;
 }
 .nav-header{
 /*    display: flex;*/
@@ -38,7 +39,7 @@ h1{
 ul{
     display: flex;
     flex-direction: row;
-    width: 270px;
+    width: 20vw;
     justify-content: space-between;
     list-style: none;
     margin-right: 40px;
@@ -181,8 +182,20 @@ body{
 .change{
     display: flex;
     flex-direction: row;
+    font-size: 0px;
 }
 
 .donatebutton{
-    width: 1vw;
+    width: 2vw;
+    margin-top: 10%;
+}
+
+.realchange{
+    font-size: 6vh;
+    margin-top: 2.5vh;
+    margin-left: 2vh;
+}
+
+.whychange p {
+    font-size: 2.5vh;
 }
