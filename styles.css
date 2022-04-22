@@ -117,11 +117,15 @@ body{
     font-size: 3vw;
 }
 
-    .homefooter{
-    justify-content: space-between;
-    font-family: 'Markazi Text', serif;
-    font-size: 200%;
-    margin-top: 200px;
+footer{
+    background-color: grey;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px 10px 2px 10px;
+}
+
+.FooterFloor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 }
 
