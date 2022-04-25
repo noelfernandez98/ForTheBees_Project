@@ -11,58 +11,22 @@ body{
     font-family: 'Markazi Text', serif;
 }
 
-nav{
-    background-color: #FBF8BE;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    /*height: 5%;*/
+*{
+    color: #4c4a42 !important;
+    font-family: 'Markazi Text', serif;
 }
 
-/*h1{*/
-/*    font-family: 'Markazi Text', serif;*/
-/*}*/
-.nav-logo{
-    display: flex;
-    flex-direction: row;
-    /*height: 50%;*/
-    align-items:center;
+#navbar{
+    background-color: #fbf8be;
+    font-size: 2em ;
 }
 
+#forthebees{
+    font-size: 2.5rem !important;
+}
 .headlogo{
-    height: 100px;
-    width: 100px;
+    width: 3em;
 }
-/*.nav-header{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
-
-ul{
-    display: flex;
-    flex-direction: row;
-    width: 270px;
-    justify-content: space-between;
-    list-style: none;
-    margin-right: 40px;
-}
-
-ul li{
-    text-decoration: none;
-    color: black;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
-    color: #495371;
-}
-
 /*.cards{*/
 /*    display: flex;*/
 /*    flex-direction: row;*/

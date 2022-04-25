@@ -4,61 +4,22 @@
     text-decoration: none;
     cursor: url("images/cursor.png"), auto;
 }
-nav{
-    background-color: #FBF8BE;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    font-family: 'Markazi Text', serif;
-    /*height: 5%;*/
-    font-size: 3vh;
-}
-
-h1{
+*{
+    color: #4c4a42 !important;
     font-family: 'Markazi Text', serif;
 }
 
-.nav-logo{
-    display: flex;
-    flex-direction: row;
-    /*height: 50%;*/
-    align-items:center;
+#navbar{
+    background-color: #fbf8be;
+    font-size: 2em ;
 }
 
+#forthebees{
+    font-size: 2.5rem !important;
+}
 .headlogo{
-    height: auto;
-    width: 4vw;
+    width: 3em;
 }
-.nav-header{
-/*    display: flex;*/
-/*    flex-direction: row;*/
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    width: 20vw;
-    justify-content: space-between;
-    list-style: none;
-    margin-right: 40px;
-}
-
-ul li{
-    text-decoration: none;
-    color: black;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
-    color: #495371;
-}
-
 body{
     background: #a7beae;
     width: 100%;
