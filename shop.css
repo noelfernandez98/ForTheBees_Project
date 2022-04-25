@@ -3,101 +3,69 @@
     padding: 0;
     cursor: url("images/cursor.png"), auto;
 }
-
 body{
-    background-color: #a7bfae;
+    background-color: #A7BFAE;
 }
-
-nav{
+*{
+    color: #4C4A42 !important;
+    font-family: 'Markazi Text', serif;
+}
+#navbar{
     background-color: #FBF8BE;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    /*height: 5%;*/
+    font-size: 2em ;
 }
-
-/*h1{*/
-/*    font-family: 'Markazi Text', serif;*/
-/*}*/
-.nav-logo{
-    display: flex;
-    flex-direction: row;
-    /*height: 50%;*/
-    align-items:center;
+#forthebees{
+    font-size: 2.5rem !important;
 }
-
 .headlogo{
-    height: 100px;
-    width: 100px;
+    width: 3em;
 }
-.nav-header{
+.page-name-container{
     display: flex;
-    flex-direction: row;
-}
-
-.mailing-list{
-    font-size: 15px;
-}
-
-.signin{
-    text-decoration: underline;
-}
-
-.details{
-    text-decoration: underline;
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    width: 270px;
-    justify-content: space-between;
-    list-style: none;
-    margin-right: 40px;
-}
-
-ul li{
-    text-decoration: none;
-    color: black;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
-    color: #495371;
-}
-
-.name-image-items{
-    display: flex;
-    flex-flow: row;
     justify-content: center;
-    padding-top: 30px;
-    column-gap: 0.5rem;
+    align-items: baseline;
 }
-
-.apparel-name{
-    font-size: 50px;
-    margin-bottom: 25px;
+ .apparel-name{
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 0;
 }
-
-.honeypot{
-    height:45px;
-    width: 45px;
+.honeybucket{
+    height: 40px;
+    /*text-align: center;*/
+    /*margin-top: 40px;*/
 }
-
-/*.cart-container{*/
-/*    display: flex;*/
-/*    justify-content: flex-start;*/
-/*    height: 35px;*/
-/*    width: 35px;*/
-/*}*/
-
-
+.product-container{
+    display: flex;
+    overflow-x: scroll;
+    align-items: baseline;
+    min-height: 100vh;
+}
+.caption{
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+    text-align: center;
+}
+#footer{
+  background-color: #808080;
+  border-radius: 15px 15px 0px 0px;
+}
+#myCarousel{
+    min-height: 120vh;
+}
+h5{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.size{
+    min-height: 30vh;
+    max-height: 35vh;
+    background-image: url(images/beebg3.jpg);
+}
+.w-100vw {
+  width: 40rem !important;
+  height: auto;
+}
 
 .salebanner{
     display: flex;
@@ -110,7 +78,7 @@ a:hover{
     text-transform: uppercase;
     font-weight: 800;
     color: white;
-    background: #689f38;
+    background: #689F38;
     column-gap: 0.5rem;
 }
 
@@ -121,41 +89,7 @@ a:hover{
 .item2{
     font-size: 12px;
 }
-.product-container{
-    display: flex;
-    overflow-x: scroll;
-    align-items: baseline;
-    /*margin-top: 5px;*/
-    margin-bottom: 30px;
-    
-}
-
-
-.caption{
-    font-family: 'Markazi Text', serif;
-    font-size: 25px;
-    text-align: center;
-}
-
-footer{
-    background-color: grey;
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px 10px 2px 10px;
-}
-
-.FooterFloor{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-}
-
-/*@media screen and (max-width: 768px){*/
-/*    html, body{ */
-/*        width: 100vw;*/
-/*        height: 100vh;*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*    }*/
-    
-    
+.mailing-list{
+    font-size: 1.5rem !important;
+    /*display: block;*/
 }
