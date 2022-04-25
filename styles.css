@@ -55,13 +55,7 @@ body{
     text-align: center;
 }
 
-footer{
-    background-color: grey;
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px 10px 2px 10px;
-}
-
-.FooterFloor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#footer{
+  background-color: #808080;
+  border-radius: 15px 15px 0px 0px;
 }
