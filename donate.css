@@ -15,13 +15,26 @@
     width: 3em;
 }
 
-.beebg{
+#donate{
     background-color: #a7beae;
-    background-image: url(beebg2.png);
+    /*background-image: url(beebg2.png)!important;*/
     background-position: center;
+    margin: 0;
 }
 
 #button{
     color: #4c4a42!important;
 }
 
+#change{
+    font-size: 3em;
+    margin: 0;
+}
+
+#trail{
+    object-fit: cover;
+}
+
+#why{
+    font-size: 2em;
+}

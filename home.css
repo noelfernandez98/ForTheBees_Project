@@ -32,6 +32,9 @@ body{
     background: #a7bfae;
     justify-content: center;
     position: relative;
+    background-color: #a7beae;
+    background-image: url(beebg2.png);
+    background-position: center;
 }
 
 .bees{
@@ -41,9 +44,9 @@ body{
 }
 
 .mission{
-    top: 40%;
+    top: 50%;
     left: 50%;
-    position: absolute;
+    position: center;
     padding: 0;
     font-size: 500%;
 }
