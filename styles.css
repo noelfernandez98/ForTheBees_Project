@@ -62,7 +62,7 @@ body{
 }
 
 #myCarousel{
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 h5{
@@ -79,4 +79,31 @@ h5{
 .w-100vw {
   width: 40rem !important;
   height: auto;
+}
+
+.salebanner{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-flow: row;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: #689F38;
+    column-gap: 0.5rem;
+}
+
+.big{
+    font-size: 18px;
+}
+.item2{
+    font-size: 12px;
+}
+
+.mailing-list{
+    font-size: 1.5rem !important;
+    /*display: block;*/
 }
