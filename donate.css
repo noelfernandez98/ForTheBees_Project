@@ -1,0 +1,56 @@
+*{
+    color: #4c4a42 !important;
+    font-family: 'Markazi Text', serif;
+    cursor: url("images/cursor.png"), auto;
+}
+
+#navbar{
+    background-color: #fbf8be;
+    font-size: 2em ;
+}
+
+#forthebees{
+    font-size: 2.5rem !important;
+}
+.headlogo{
+    width: 3em;
+}
+
+#donate{
+    background-color: #a7beae;
+    /*background-image: url(beebg2.png)!important;*/
+    background-position: center;
+    margin: 0;
+}
+
+#button{
+    color: #4c4a42!important;
+}
+
+#change{
+    font-size: 3em;
+    margin: 0;
+}
+
+#trail{
+    object-fit: cover;
+}
+
+#why{
+    font-size: 2em;
+}
+
+.celebs{
+    width: 20rem;
+    padding-right: 2vw;
+    align-items: center;
+}
+
+#beelist{
+    font-size: 2.5em;
+}
+
+#footer{
+  background-color: #808080;
+  border-radius: 15px 15px 0px 0px;
+}
