@@ -1,92 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" type="text/css" />
-    <link rel="stylesheet" href="grid.css" type="text/css" />
-    <title>shop apparel</title>
-    
-</head>
-<body>
-   <nav id= "navbar"class="navbar navbar-expand-md navbar-light">
-      <div class="container">
-         <a href= "home.html"><img class= "headlogo"src="images/logobee.png"></img></a>
-         <a href="home.html" class="navbar-brand" id="forthebees">For The Bee's</a>
-         
-         <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-               <li class="nav-item">
-                  <a href="about.html" class="nav-link">About Us</a>
-               </li>
-               <li class="nav-item">
-                  <a href="shop.html" class="nav-link">Shop</a>
-               </li>
-               <li class="nav-item">
-                  <a href="donate.html" class="nav-link">Donate</a>
-               </li>
-            </ul>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css" type="text/css" />
+      <link rel="stylesheet" href="grid.css" type="text/css" />
+      <title>shop apparel</title>
+   </head>
+   <body>
+      <nav id= "navbar"class="navbar navbar-expand-md navbar-light">
+         <div class="container">
+            <a href= "home.html"><img class= "headlogo"src="images/logobee.png"></img></a>
+            <a href="home.html" class="navbar-brand" id="forthebees">For The Bee's</a>
+            <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a href="about.html" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="shop.html" class="nav-link">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="donate.html" class="nav-link">Donate</a>
+                  </li>
+               </ul>
+            </div>
          </div>
+      </nav>
+      <header>
+         <div class="page-name-container">
+            <h1 class="apparel-name">shop apparel</h1>
+            <img class="honeybucket" src="images/honeypot.png">
+         </div>
+      </header>
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="images/blackhoodie.png" class="d-block w-50vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's Black Logo Hoodie</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/grayhoodie.png" class="d-block w-30vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's Gray Logo Hoodie</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/redhoodie.png" class="d-block w-50vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's Red Logo Hoodie</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/whitehoodie.png" class="d-block w-50vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's White Logo Hoodie</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/blacktee.png" class="d-block w-50vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's Black Tee</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="images/whitetee.png" class="d-block w-50vw" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>For The Bee's White Tee</h5>
+                  <p>30% of all purchases go towards saving the bees.</p>
+               </div>
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </button>
       </div>
-   </nav>
-
-    <header>
-        <div class="page-name-container">
-        <h1 class="apparel-name">shop apparel</h1>
-        <img class="honeybucket" src="images/honeypot.png">
-        </div>
-    </header>
-    
-    <hero class='product-container'>
-      <figure class='bhoodie'>
-        <img src="images/blackhoodie.png" alt="black hoodie with bee in center">
-        <figcaption class="caption">Premium Black Hoodie</figcaption>
-        <figcaption class="caption">$49.99</figcaption>
-     </figure>
-     <figure class="unisex-tee">
-         <img src="images/blacktee.png" alt="unisex t-shirt with bee in center">
-         <figcaption class="caption">Black Unisex Tee</figcaption>
-         <figcaption class="caption">$29.99</figcaption>
-     </figure>
-     <figure class="gray-hoodie">
-         <img src="images/grayhoodie.png" alt="gray hoodie with bee in center">
-         <figcaption class="caption">Gray Pullover Hoodie</figcaption>
-         <figcaption class="caption">$29.99</figcaption>
-    </figure>
-    <figure class="red-hoodie">
-        <img src="images/redhoodie.png" alt="red hoodie with bee in center">
-        <figcaption class="caption">Red Pullover Hoodie</figcaption>
-        <figcaption class="caption">$49.99</figcaption>
-    </figure>
-    <figure class="white-hoodie">
-        <img src="images/whitehoodie.png" alt="white hoodie with bee with bee in center">
-        <figcaption class="caption">White Pullover Hoodie</figcaption>
-        <figcaption class="caption">$49.99</figcaption>
-    </figure>
-    <figure class="white-tee">
-     <img src="images/whitetee.png" alt="white tee with bee in center">
-     <figcaption class="caption">White Unisex Tee</figcaption>
-     <figcaption class="caption">$49.99</figcaption>
-    </figure>
-    </hero>
-    <footer id= "footer" class="p-5 position-relative">
+      <footer id= "footer" class="p-5 position-relative">
          <div class="container">
             <p class="lead">Copyright &copy; 2022 NSS, Marcy Fellows</p>
             <a href="" class="position-absolute bottom-0 end-0 p-5">
-               <i class="bi bi-arrow-up-circle h1 white-color"></i>
+            <i class="bi bi-arrow-up-circle h1 white-color"></i>
             </a>
-        </div>
-    </footer> 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   </body>
 </html>

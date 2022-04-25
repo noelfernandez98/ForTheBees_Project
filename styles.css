@@ -46,6 +46,7 @@ body{
     display: flex;
     overflow-x: scroll;
     align-items: baseline;
+    min-height: 100vh;
 }
 
 
@@ -58,4 +59,8 @@ body{
 #footer{
   background-color: #808080;
   border-radius: 15px 15px 0px 0px;
+}
+
+#myCarousel{
+    min-height: 100vh;
 }
