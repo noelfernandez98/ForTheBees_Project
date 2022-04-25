@@ -1,0 +1,27 @@
+*{
+    color: #4c4a42 !important;
+    font-family: 'Markazi Text', serif;
+}
+
+#navbar{
+    background-color: #fbf8be;
+    font-size: 2em ;
+}
+
+#forthebees{
+    font-size: 2.5rem !important;
+}
+.headlogo{
+    width: 3em;
+}
+
+.beebg{
+    background-color: #a7beae;
+    background-image: url(beebg2.png);
+    background-position: center;
+}
+
+#button{
+    color: #4c4a42!important;
+}
+
