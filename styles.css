@@ -69,3 +69,14 @@ h5{
     font-weight: bold;
     font-size: 3rem;
 }
+
+.size{
+    min-height: 30vh;
+    max-height: 35vh;
+    background-image: url(images/beebg3.jpg);
+}
+
+.w-100vw {
+  width: 40rem !important;
+  height: auto;
+}
