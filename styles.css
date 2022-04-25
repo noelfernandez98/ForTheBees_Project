@@ -64,3 +64,8 @@ body{
 #myCarousel{
     min-height: 100vh;
 }
+
+h5{
+    font-weight: bold;
+    font-size: 3rem;
+}
