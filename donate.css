@@ -38,3 +38,13 @@
 #why{
     font-size: 2em;
 }
+
+.celebs{
+    width: 20rem;
+    padding-right: 2vw;
+    align-items: center;
+}
+
+#beelist{
+    font-size: 2.5em;
+}
