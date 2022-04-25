@@ -1,6 +1,7 @@
 *{
     color: #4c4a42 !important;
     font-family: 'Markazi Text', serif;
+    cursor: url("images/cursor.png"), auto;
 }
 
 #navbar{
@@ -47,4 +48,9 @@
 
 #beelist{
     font-size: 2.5em;
+}
+
+#footer{
+  background-color: #808080;
+  border-radius: 15px 15px 0px 0px;
 }

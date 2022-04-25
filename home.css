@@ -3,11 +3,10 @@
     margin: 0;
     text-decoration: none;
     cursor: url("images/cursor.png"), auto;
-}
-*{
-    color: #4c4a42 !important;
+    color: #4c4a42;
     font-family: 'Markazi Text', serif;
 }
+
 
 #navbar{
     background-color: #fbf8be;
@@ -35,6 +34,8 @@ body{
     background-color: #a7beae;
     background-image: url(beebg2.png);
     background-position: center;
+    align-items: center!important;
+    min-height: 100vh;
 }
 
 .bees{
@@ -48,7 +49,8 @@ body{
     left: 50%;
     position: center;
     padding: 0;
-    font-size: 500%;
+    font-size: 10vw;
+    padding: 20vw;
 }
 
 .homefooter{
@@ -63,107 +65,7 @@ body{
     height: auto;
 }
 
-@media screen and (max-width: 3440px) {
-    
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-    
-    .mission{
-    top: 40%;
-    left: 38%;
-    position: absolute;
-    padding: 0;
-    font-size: 3vw;
-}
-
-footer{
-    background-color: #689f38;
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px 10px 2px 10px;
-}
-
-.FooterFloor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-}
-
-@media screen and (max-width: 768px) {
-    
-    html, body {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .mission{
-    top: 22%;
-    left: 22%;
-    position: absolute;
-    padding: 0;
-    font-size: 3vh;
-    }
-    .beebg1{
-        width: 0vw;
-        height: auto;
-    }
-    
-    .beebg2{ 
-        width: 125vh;
-        height: auto;
-    }
-    
-    .hypl{
-        font-size: 16px;
-    }
-}
-
-/*// donate.html // */
-
-.heart{
-    width: 14vh;
-}
-
-.nav-heart{
-    display: flex;
-    align-items: center;
-    font-size: 3vh;
-}
-
-.hypl{
-    font-size: 1.5vw;
-    align-items: space-between;
-}
-
-.hyp2{
-    font-size: 1.4vw;
-    font-weight: lighter;
-    align-items: space-between;
-}
-
-.change{
-    display: flex;
-    flex-direction: row;
-    font-size: 0px;
-}
-
-.donatebutton{
-    width: 2vw;
-    margin-top: 10%;
-}
-
-.realchange{
-    font-size: 6vh;
-    margin-top: 2.5vh;
-    margin-left: 2vh;
-}
-
-.whychange p {
-    font-size: 2.5vh;
+#footer{
+  background-color: #808080;
+  border-radius: 15px 15px 0px 0px;
 }
