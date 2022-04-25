@@ -37,6 +37,18 @@ nav{
     flex-direction: row;
 }
 
+.mailing-list{
+    font-size: 15px;
+}
+
+.signin{
+    text-decoration: underline;
+}
+
+.details{
+    text-decoration: underline;
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -60,28 +72,62 @@ a:hover{
     color: #495371;
 }
 
-.page-name-container{
+.name-image-items{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding-top: 30px;
+    column-gap: 0.5rem;
+}
+
+.apparel-name{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.honeypot{
+    height:45px;
+    width: 45px;
+}
+
+/*.cart-container{*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    height: 35px;*/
+/*    width: 35px;*/
+/*}*/
+
+
+
+.salebanner{
     display: flex;
     justify-content: center;
     align-items: baseline;
-}
-
- .apparel-name{
-    font-size: 40px;
+    flex-flow: row;
+    margin-top: 10px;
     padding-top: 25px;
-    padding-bottom: 0;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: #689f38;
+    column-gap: 0.5rem;
 }
 
-.honeybucket{
-    height: 40px;
-    /*text-align: center;*/
-    /*margin-top: 40px;*/
+.big{
+    font-size: 18px;
 }
 
+.item2{
+    font-size: 12px;
+}
 .product-container{
     display: flex;
     overflow-x: scroll;
     align-items: baseline;
+    /*margin-top: 5px;*/
+    margin-bottom: 30px;
+    
 }
 
 
@@ -98,6 +144,18 @@ footer{
 }
 
 .FooterFloor{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    html, body{ 
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
 }
