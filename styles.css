@@ -6,7 +6,6 @@
 
 body{
     background-color: #a7bfae;
-    position: relative;
 }
 
 *{
@@ -77,6 +76,12 @@ body{
     text-align: center;
 }
 
+.carousel-caption{
+    position: absolute;
+    top: 4.89rem;
+    left: 39%;
+}
+
 .banner-content{
     font-size: 1.2rem;
     display: flex;
@@ -132,11 +137,6 @@ h5{
   }
 }
 
-/*.carousel-caption d-none d-md-block{*/
-/*    display: flex; */
-    /*position: relative;*/
-    
-/*}*/
 .price{
     font-size: 3rem!important;
 }
@@ -144,9 +144,3 @@ h5{
 .proceeds{
     font-size: 1.86rem!important;
 }
-
-/*.carousel-caption d-none d-md-block{*/
-/*    position: absolute;*/
-/*    top: 50;*/
-/*    left: 300;*/
-/*}*/
