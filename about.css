@@ -43,7 +43,7 @@ body{
 
 
 .CompanyBio{
-    padding: 40px 60px;
+    padding: 20px 60px;
     margin: 40px 40px 20px 40px;
     border-radius: 15px;
     
@@ -71,6 +71,46 @@ section{
     justify-content: space-around;
 }
 
+section p{
+    font-size: 1.3em;
+    text
+}
+
+.care{
+    border-radius: 15px;
+}
+
+.help{
+    border-radius: 15px;
+}
+
+.help ol li, .help ol li a, .lastList{
+    font-size: 1.45em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.compbio {
+    font-size: 35px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.care h4{
+     font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.help h4{
+      font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lastList{
+  font-size: 1.45em;  
+}
 
 .MeetTheTeam{
     border-radius: 15px 15px 0px 0px;
