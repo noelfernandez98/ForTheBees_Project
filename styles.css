@@ -20,7 +20,7 @@ body{
 
 .nav-container{
     display: flex;
-    column-gap: 3.86rem;
+    column-gap: .67rem;
     align-items: baseline;
 }
 
@@ -79,7 +79,7 @@ body{
 
 .carousel-caption{
     position: absolute;
-    top: 4.89rem;
+    top: 3rem;
     left: 39%;
 }
 
@@ -139,9 +139,35 @@ h5{
 }
 
 .price{
-    font-size: 3rem!important;
+    font-size: 2.86rem!important;
 }
 
 .proceeds{
-    font-size: 1.86rem!important;
+    font-size: 1.88rem;
 }
+
+@media (max-width: 600px){
+    nav{
+        height: 6rem;
+    }
+    .nav-container{
+    display: flex;
+    /*column-gap: 1.86rem;*/
+    align-items: baseline;
+    }
+    .mailing-list{
+        visibility: hidden;
+    }
+    .footer{
+        position: relative!important;
+        top: 14rem;
+    }
+    .carousel-caption{
+        display: flex;
+        position: relative;
+        top: 30rem;
+        
+    }
+
+}
+
