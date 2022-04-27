@@ -18,6 +18,12 @@ body{
     font-size: 2em ;
 }
 
+.nav-container{
+    display: flex;
+    column-gap: 5.5rem;
+    align-items: baseline;
+}
+
 #forthebees{
     font-size: 2.5rem !important;
 }
@@ -28,6 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: baseline;
+    column-gap: 0.4rem;
 }
 
  .apparel-name{
@@ -37,7 +44,7 @@ body{
 }
 
 .honeybucket{
-    height: 40px;
+    height: 45px;
     /*text-align: center;*/
     /*margin-top: 40px;*/
 }
@@ -49,11 +56,44 @@ body{
     min-height: 100vh;
 }
 
+.salebanner{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-flow: row;
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background: #689F38;
+    column-gap: 0.5rem;
+}
 
 .caption{
     font-family: 'Markazi Text', serif;
     font-size: 25px;
     text-align: center;
+}
+
+.apparel-name{
+    font-size: 65px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.banner-content{
+    font-size: 1.5rem;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 8s;
+}
+
+
+.big{
+    font-size: 1.69rem;
 }
 
 #footer{
@@ -103,7 +143,119 @@ h5{
     font-size: 12px;
 }
 
-.mailing-list{
-    font-size: 1.5rem !important;
     /*display: block;*/
+.mailing-list{
+    font-size: 18px;
+    text-align: center;
 }
+
+
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% { 
+    left: calc(100% - 100px);
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+
+
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    cursor: url("images/cursor.png"), auto;*/
+/*}*/
+/*body{*/
+/*    background-color: #A7BFAE;*/
+/*}*/
+/**{*/
+/*    color: #4C4A42 !important;*/
+/*    font-family: 'Markazi Text', serif;*/
+/*}*/
+/*#navbar{*/
+/*    background-color: #FBF8BE;*/
+/*    font-size: 2em ;*/
+/*}*/
+/*#forthebees{*/
+/*    font-size: 2.5rem !important;*/
+/*}*/
+/*.headlogo{*/
+/*    width: 3em;*/
+/*}*/
+/*.page-name-container{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: baseline;*/
+/*}*/
+/* .apparel-name{*/
+/*    font-size: 40px;*/
+/*    padding-top: 25px;*/
+/*    padding-bottom: 0;*/
+/*}*/
+/*.honeybucket{*/
+/*    height: 40px;*/
+    /*text-align: center;*/
+    /*margin-top: 40px;*/
+/*}*/
+/*.product-container{*/
+/*    display: flex;*/
+/*    overflow-x: scroll;*/
+/*    align-items: baseline;*/
+/*    min-height: 100vh;*/
+/*}*/
+/*.caption{*/
+/*    font-family: 'Markazi Text', serif;*/
+/*    font-size: 25px;*/
+/*    text-align: center;*/
+/*}*/
+/*#footer{*/
+/*  background-color: #808080;*/
+/*  border-radius: 15px 15px 0px 0px;*/
+/*}*/
+/*#myCarousel{*/
+/*    min-height: 120vh;*/
+/*}*/
+/*h5{*/
+/*    font-weight: bold;*/
+/*    font-size: 3rem;*/
+/*}*/
+/*.size{*/
+/*    min-height: 30vh;*/
+/*    max-height: 35vh;*/
+/*    background-image: url(images/beebg3.jpg);*/
+/*}*/
+/*.w-100vw {*/
+/*  width: 40rem !important;*/
+/*  height: auto;*/
+/*}*/
+
+/*.salebanner{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: baseline;*/
+/*    flex-flow: row;*/
+/*    margin-top: 10px;*/
+/*    padding-top: 25px;*/
+/*    padding-bottom: 15px;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 800;*/
+/*    color: white;*/
+/*    background: #689F38;*/
+/*    column-gap: 0.5rem;*/
+/*}*/
+
+/*.big{*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.item2{*/
+/*    font-size: 12px;*/
+/*}*/
+/*.mailing-list{*/
+/*    font-size: 10px;*/
+    /*display: block;*/
+/*}*/
